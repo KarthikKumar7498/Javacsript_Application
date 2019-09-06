@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <title>BAS Report card</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <h1><b></b>Bright Angels School</b></h1>
+    <h2>Student Academic Details Form</h2>
+    <form name="myform" action="#">
+        <label for="Student_ID">Roll Number</label>
+        <input type="text" name="rno" id="rno"  placeholder="ROLL NUMBER"></input><br>
+        <label for="Grade">Grade</label>
+        <select type="text" name="grade" id="grade">
+            <option value="S">-Select-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select><br>
+        <label for="Division">Division</label>
+        <select name="div" id="div" >
+            <option value="" >-Select-</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+        </select><br>
+        <label for="English">English Marks</label><input type="number" name="english" id="english"></input><br>
+        <label for="Maths">Maths Marks</label><input type="number" name="maths" id="maths"></input><br>
+        <label for="Science">Science Marks</label><input type="number" name="science" id="science"></input><br>
+        <label for="Social">Social Science Marks</label><input type="number" name="social" id="social"></input><br>
+        <br><input type="button" id="button1" value="Submit" onclick="validate();"></input><br>
+        <br><input type="button" id="button2" value="Display" onclick="display();"></input>
+        <div id="myDIV">This is my DIV element.</div>
+        <br><input type="button" id="button" value="Try it" onclick="myFunction();"></input>
+        <p id="demo"></p>
+        <div id="Result"></div>
+    </form> 
+   
+</body>
+<script src="task2.js"></script>
+</html>
